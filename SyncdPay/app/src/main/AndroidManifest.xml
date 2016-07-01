@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.syncdpay.academy_intern.syncdpay" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="com.parse.APPLICATION_ID"
+        android:value="ZYbizSgM91NBv2QWoWcZ2UpWLTqAhdefpUDAqbkN" />
+    <meta-data
+        android:name="com.parse.CLIENT_KEY"
+        android:value="SHr8gPtKFnOQjz2OvpZSg1YQJU6AxLNRgDTdhnJ8" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:parentActivityName=".Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syncdpay.academy_intern.syncdpay.Login" />
+        </activity>
+        <activity
+            android:name=".Register2"
+            android:label="@string/title_activity_register2"
+            android:parentActivityName=".Register" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syncdpay.academy_intern.syncdpay.Register" />
+        </activity>
+        <activity
+            android:name=".AddNumber"
+            android:label="@string/title_activity_add_number"
+            android:parentActivityName=".Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syncdpay.academy_intern.syncdpay.Login" />
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:parentActivityName=".Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syncdpay.academy_intern.syncdpay.Login" />
+        </activity>
+        <activity
+            android:name=".Stores"
+            android:label="@string/title_activity_stores"
+            android:parentActivityName=".Dashboard" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syncdpay.academy_intern.syncdpay.Dashboard" />
+        </activity>
+        <activity
+            android:name=".Property"
+            android:label="@string/title_activity_property"
+            android:parentActivityName=".Dashboard" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syncdpay.academy_intern.syncdpay.Dashboard" />
+        </activity>
+        <activity
+            android:name=".GetOTP"
+            android:label="@string/title_activity_get_otp" />
+        <activity
+            android:name=".AddStore"
+            android:label="@string/title_activity_get_otp" />
+        <activity
+            android:name=".PayStore"
+            android:label="@string/title_activity_get_otp" />
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_get_otp" />
+        <activity
+            android:name=".Splash"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Homes"
+            android:label="@string/title_activity_homes" >
+        </activity>
+        <activity
+            android:name=".Cars"
+            android:label="@string/title_activity_cars" >
+        </activity>
+    </application>
+
+</manifest>

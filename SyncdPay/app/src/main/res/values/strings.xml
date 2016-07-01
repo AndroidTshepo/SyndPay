@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SyncdPay</string>
+    <string name="title_activity_login">Login</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Sign Up</string>
+    <string name="et_otp_login">Enter OTP</string>
+    <string name="et_username_login">Enter username</string>
+    <string name="et_id_login">ID Number</string>
+    <string name="et_id_reg">Enter Identity number</string>
+    <string name="et_name_reg">Enter Name</string>
+    <string name="et_sname_reg">Enter Surname</string>
+    <string name="et_email_reg">Enter Email</string>
+    <string name="et_mobile_number_primary_reg">Enter mobile number</string>
+    <string name="et_mobile_number_alt_reg">Enter alternative mobile number</string>
+    <string name="title_activity_register2">Sign Up</string>
+    <string name="et_acc_no_reg">Enter Account Number</string>
+    <string name="et_card_no_reg">Enter Card Number</string>
+    <string name="et_cvv_reg">Enter card verification value (CVV)</string>
+    <string name="et_branch_code_reg">Enter Branch Code</string>
+    <string name="title_activity_add_number">Add New Number</string>
+    <string name="et_username_add_no">Enter Username</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_stores">Stores</string>
+    <string name="title_activity_property">Proper Property</string>
+    <string name="title_activity_get_otp">Get One Time Password</string>
+    <string name="et_store_name">Enter Store Name</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_splash">SyncdPay</string>
+    <!--adding parse connectivity that are relited to my account on the cloud-->
+    <string name="parse_app_id">7OuInylpr1CiFmw889zvGrbWkgT7Vnwo87eNAdHW</string>
+    <string name="parse_client_key">wW0r65SQ7dLiKa17DkM3ZnYgImO4kmlHoAgFqvNb</string>
+    <string name="title_activity_homes">Homes</string>
+    <string name="title_activity_cars">Cars</string>
+
+</resources>
